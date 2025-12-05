@@ -273,7 +273,7 @@ export default function Portfolio() {
     {
       category: "Frontend",
       icon: Code2,
-      items: ["React.js", "Next.js", "Tailwind CSS", "JavaScript", "TypeScript", "Redux"]
+      items: ["React.js", "Next.js", "Tailwind CSS", "JavaScript", "TypeScript", "Redux", "Bootstrap"]
     },
     {
       category: "Backend",
@@ -283,12 +283,12 @@ export default function Portfolio() {
     {
       category: "Database",
       icon: Database,
-      items: ["MongoDB", "PostgreSQL", "Firebase", "SQL", "Redis"]
+      items: ["MongoDB", "Pinecone", "SQL", "vector databases"]
     },
     {
       category: "Tools & DevOps",
       icon: Zap,
-      items: ["Git", "Docker", "AWS", "CI/CD", "GitHub Actions"]
+      items: ["Git", "Docker", "GitHub"]
     }
   ];
 
@@ -484,3 +484,4 @@ export default function Portfolio() {
     </div>
   );
 }
+
